@@ -62,3 +62,33 @@ This means the web server is working.
 • How to run a web server  
 
 I am currently learning Linux, cloud and DevOps step by step.
+
+
+##DAY 2
+## Linux Server Practice
+
+### Directories Explored
+- `/home` – location where user files and personal directories are stored.
+- `/etc` – contains system configuration files used by services and applications.
+- `/var/log` – directory where system logs and service logs are stored.
+- `/var/log/nginx` – location of Nginx web server logs.
+
+### Files Created
+- Created new files using the `touch` command.
+- Edited and added content to files using the `nano` text editor.
+
+### Permission Changes
+- Practiced changing file permissions using `chmod`.
+- Example command: `chmod 755 script.sh`
+- Learned how read (`r`), write (`w`), and execute (`x`) permissions control access to files.
+
+### Nginx Logs Checked
+- `/var/log/nginx/access.log` – records requests made to the web server.
+- `/var/log/nginx/error.log` – records errors or problems related to the web server.
+
+### Learning Points
+- Understanding the Linux filesystem structure.
+- Creating and editing files using terminal commands.
+- Managing file permissions and executable files.
+- Understanding how services like Nginx store logs.
+- Inspecting web server activity using log files.
