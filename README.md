@@ -92,3 +92,27 @@ I am currently learning Linux, cloud and DevOps step by step.
 - Managing file permissions and executable files.
 - Understanding how services like Nginx store logs.
 - Inspecting web server activity using log files.
+
+
+##DAY 3
+Processes and Services
+
+### Goal
+Understand running processes and how to manage services like nginx.
+
+### Steps
+- Checked running processes using `ps aux`
+- Monitored system activity using `top`
+- Started, stopped, and restarted nginx using `systemctl`
+- Observed logs in `/var/log/nginx`
+
+### What I Learned
+- How to see running processes in the system
+- Difference between `ps` (snapshot) and `top` (live view)
+- How to manage services using:
+  - `start`
+  - `stop`
+  - `restart`
+- Logs help understand what is happening inside the server
+- When nginx is stopped, the website does not open
+- When nginx is started again, the website becomes accessible
