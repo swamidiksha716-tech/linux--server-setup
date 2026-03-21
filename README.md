@@ -1,3 +1,4 @@
+## day 1
 # Linux Server Setup (Learning Project)
 This is a small project I did while learning Linux and DevOps.
 In this project I created a Linux server on AWS and installed a web server called Nginx. I also learned how to check if services are running in Linux.
@@ -64,7 +65,7 @@ This means the web server is working.
 I am currently learning Linux, cloud and DevOps step by step.
 
 
-##DAY 2
+## DAY 2
 ## Linux Server Practice
 
 ### Directories Explored
@@ -94,7 +95,7 @@ I am currently learning Linux, cloud and DevOps step by step.
 - Inspecting web server activity using log files.
 
 
-##DAY 3
+## DAY 3
 Processes and Services
 
 ### Goal
