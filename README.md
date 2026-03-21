@@ -116,3 +116,25 @@ Understand running processes and how to manage services like nginx.
 - Logs help understand what is happening inside the server
 - When nginx is stopped, the website does not open
 - When nginx is started again, the website becomes accessible
+
+
+## Day 4 – Networking Basics
+
+### Goal
+Understand basic networking and how server responds to requests.
+
+### Steps
+- Checked IP address using `ip a` and `curl ifconfig.me`
+- Checked open ports using `ss -tuln`
+- Tested server response using `curl localhost`
+- Modified website content in nginx default page
+- Stopped and started nginx service to observe behavior
+
+### What I Learned
+- Difference between private IP and public IP
+- How to check if a service is listening on a port
+- How to test server response using curl
+- How web server serves content from files
+- When nginx is stopped, website does not load
+- When nginx is started, website becomes accessible
+
