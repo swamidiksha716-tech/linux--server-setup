@@ -1,5 +1,4 @@
-## day 1
-# Linux Server Setup (Learning Project)
+## Day 1 - Linux Server Setup (Learning Project)
 This is a small project I did while learning Linux and DevOps.
 In this project I created a Linux server on AWS and installed a web server called Nginx. I also learned how to check if services are running in Linux.
 
@@ -65,8 +64,7 @@ This means the web server is working.
 I am currently learning Linux, cloud and DevOps step by step.
 
 
-## DAY 2
-## Linux Server Practice
+## DAY 2 - Linux Server Practice
 
 ### Directories Explored
 - `/home` – location where user files and personal directories are stored.
@@ -95,8 +93,7 @@ I am currently learning Linux, cloud and DevOps step by step.
 - Inspecting web server activity using log files.
 
 
-## DAY 3
-Processes and Services
+## DAY 3 - Processes and Services
 
 ### Goal
 Understand running processes and how to manage services like nginx.
@@ -139,3 +136,25 @@ Understand basic networking and how server responds to requests.
 - When nginx is stopped, website does not load
 - When nginx is started, website becomes accessible
 
+
+## Day 5 – Users and Permissions
+
+### Goal
+Understand users, permissions, and access control in Linux.
+
+### Steps
+- Created a new user using `useradd`
+- Set password using `passwd`
+- Switched users using `su`
+- Tested restricted access to files and directories
+- Changed file ownership using `chown`
+- Modified permissions using `chmod`
+- Broke access by removing permissions and then fixed it
+
+### What I Learned
+- Linux has multiple users with different access
+- File owner and root can control permissions
+- Permissions (r, w, x) decide what a user can do
+- Used `chown` to change owner and `chmod` to change permissions
+- Removing permissions blocks access
+- Permissions can be fixed if something breaks
