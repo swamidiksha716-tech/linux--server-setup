@@ -158,3 +158,25 @@ Understand users, permissions, and access control in Linux.
 - Used `chown` to change owner and `chmod` to change permissions
 - Removing permissions blocks access
 - Permissions can be fixed if something breaks
+
+
+## Day 6 – Package Management and Services
+
+### Goal
+Learn how to install, update, and manage software and services.
+
+### Steps
+- Updated system packages using `dnf update`
+- Installed and removed software using `dnf install` and `dnf remove`
+- Installed Apache web server (`httpd`)
+- Faced port conflict when both nginx and httpd tried to use port 80
+- Stopped nginx before starting httpd
+- Switched between nginx and httpd services
+
+### What I Learned
+- `dnf` is used to install, update, and remove software
+- Software must be installed using correct package names (apache = httpd)
+- Only one service can run on a port at a time
+- If port is busy, service will not start
+- Need to stop one service before starting another
+- Can switch between services based on need
