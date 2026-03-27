@@ -180,3 +180,24 @@ Learn how to install, update, and manage software and services.
 - If port is busy, service will not start
 - Need to stop one service before starting another
 - Can switch between services based on need
+
+
+## Day 7 – SSH and Remote Access
+
+### Goal
+Understand SSH and how to access a server remotely.
+
+### Steps
+- Installed SSH service
+- Connected to localhost using SSH
+- Created a new user
+- Tested remote login with new user
+- Stopped SSH service and faced connection issue
+- Restarted SSH service to fix the problem
+
+### What I Learned
+- SSH is used to connect to a server remotely
+- Can log in using username and password or key
+- Different users can access the same server
+- If SSH service stops, remote access fails
+- Restarting SSH service restores access
