@@ -182,15 +182,15 @@ Learn how to install, update, and manage software and services.
 - Can switch between services based on need
 
 
-## Day 7 – SSH and Remote Access
+## Day 7 – ssh and remote access
 
 ### Goal
 Understand SSH and how to access a server remotely.
 
 ### Steps
-- Installed SSH service
+- installed ssh service
 - Connected to localhost using SSH
-- Created a new user
+- create a new user
 - Tested remote login with new user
 - Stopped SSH service and faced connection issue
 - Restarted SSH service to fix the problem
