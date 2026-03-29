@@ -201,3 +201,34 @@ Understand SSH and how to access a server remotely.
 - Different users can access the same server
 - If SSH service stops, remote access fails
 - Restarting SSH service restores access
+
+
+## Day 8 – Environment Variables
+
+### Goal
+Learn what environment variables are and how to use them.
+
+### What I Did
+- Created a variable:
+  MY_CITY=kanina
+
+- Checked the value:
+  echo $MY_CITY
+
+- Made it permanent using:
+  nano ~/.bashrc
+
+- Added this line:
+  export MY_CITY="kanina"
+
+- Applied changes:
+  source ~/.bashrc
+
+- Removed and added the variable again to practice
+
+### What I Learned
+- Variable = name that stores a value
+- Use `$` to see value (echo $MY_CITY)
+- `.bashrc` is used to save variables permanently
+- `source ~/.bashrc` applies changes
+- Small mistakes in `.bashrc` can cause errors
