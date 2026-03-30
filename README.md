@@ -234,7 +234,7 @@ Learn what environment variables are and how to use them.
 - Small mistakes in `.bashrc` can cause errors
 
 
-## Day 8 – Web Server Testing and Logs
+## Day 9 – Web Server Testing and Logs
 
 ### Steps
 - Edited website using `nano`
