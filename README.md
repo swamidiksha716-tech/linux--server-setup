@@ -232,3 +232,19 @@ Learn what environment variables are and how to use them.
 - `.bashrc` is used to save variables permanently
 - `source ~/.bashrc` applies changes
 - Small mistakes in `.bashrc` can cause errors
+
+
+## Day 8 – Web Server Testing and Logs
+
+### Steps
+- Edited website using `nano`
+- Refreshed browser to see changes
+- Checked logs using `tail access.log`
+- Stopped nginx and saw site stop
+- Started nginx and site worked again
+
+### What I Learned
+- Website updates after file changes
+- Logs show user requests
+- If nginx stops, site stops
+- Starting nginx restores site
