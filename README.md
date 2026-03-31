@@ -250,7 +250,7 @@ Learn what environment variables are and how to use them.
 - Starting nginx restores site
 
 
-## Day 9 – Disk Storage
+## Day 10 – Disk Storage
 
 ### Steps
 - Checked disk space using `df -h`
