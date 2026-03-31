@@ -248,3 +248,17 @@ Learn what environment variables are and how to use them.
 - Logs show user requests
 - If nginx stops, site stops
 - Starting nginx restores site
+
+
+## Day 9 – Disk Storage
+
+### Steps
+- Checked disk space using `df -h`
+- Created a large file and observed disk usage increase
+- Deleted the file and saw space get freed
+
+### What I Learned
+- Disk stores all files and data
+- `df -h` shows total, used, and free space
+- Creating files increases disk usage
+- Deleting files frees up space
