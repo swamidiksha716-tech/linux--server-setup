@@ -262,3 +262,19 @@ Learn what environment variables are and how to use them.
 - `df -h` shows total, used, and free space
 - Creating files increases disk usage
 - Deleting files frees up space
+
+
+## Day 11 – Docker Basics
+
+- Run a python app using docker 
+- Installed Docker: `sudo dnf install docker`
+- Started Docker: `sudo systemctl start docker`
+- Ran Python container: `docker run -p 5000:5000 python`
+- Started a server inside container and opened it in browser
+
+### What I Learned
+- Docker runs apps inside containers
+- No need to install software on system
+- Containers are isolated
+- Ports allow access to container apps
+  
