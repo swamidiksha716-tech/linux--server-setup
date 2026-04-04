@@ -277,4 +277,16 @@ Learn what environment variables are and how to use them.
 - No need to install software on system
 - Containers are isolated
 - Ports allow access to container apps
-  
+
+
+## Day 12 - docker with custom website 
+
+### steps
+-what did i try 
+-i tried to run my own html page using docker on my aws server 
+-container started but the website was not opening in browser
+-so i checked out and i faced issues like port already used, permission denied, Aws port closed
+-i fixed them by stoping old containers, using sudo, and allowing the port in AWS security group.
+
+### What i learned
+-Running container is not enough, we need to manage ports and cloud network settings.
