@@ -290,3 +290,22 @@ Learn what environment variables are and how to use them.
 
 ### What i learned
 - Running container is not enough, we need to manage ports and cloud network settings.
+
+
+## Day 13 - docker image & container basics
+
+- Today i created my own docker image using a dockerfile.
+- I added an HTML file, build the image, and run it as a container.
+- then i opened it in browser and saw my output.
+
+### steps
+- create index.html
+- created dockerfile
+- built image using: docker built -t myapp
+- ran container: docker run -p 5000:5000 myapp
+- opened browser: http://public ip:5000
+
+### what i learned 
+- dockerfile is used to build image
+- image is used to create container
+- container runs the application 
