@@ -309,3 +309,16 @@ Learn what environment variables are and how to use them.
 - dockerfile is used to build image
 - image is used to create container
 - container runs the application 
+
+
+## Day 14 – Multi-Container Setup
+
+### Steps
+- Created two containers: one for database and one for application
+- Connected both containers using container name
+- Verified communication between app and database
+
+### What I Learned
+- Multiple containers can work together as services
+- Containers can communicate using names instead of IP
+- Real applications use separate services (app + database)
