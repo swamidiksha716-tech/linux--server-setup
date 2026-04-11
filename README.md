@@ -322,3 +322,15 @@ Learn what environment variables are and how to use them.
 - Multiple containers can work together as services
 - Containers can communicate using names instead of IP
 - Real applications use separate services (app + database)
+
+
+### Day 15 - Docker compose + AWS
+
+### steps
+- I created a simple html page and built a docker image using dockerfile.
+- then i used docker-compose to run the container.
+- I had to make sure ports were open and container was running properly
+- i checked container status and verified ports using docker commands.
+
+### what i learned
+- i learned that docker compose makes it easy to manage containers using one file and one command.
