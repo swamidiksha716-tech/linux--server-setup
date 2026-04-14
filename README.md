@@ -333,4 +333,4 @@ Learn what environment variables are and how to use them.
 - i checked container status and verified ports using docker commands.
 
 ### what i learned 
-- i learned that docker compose makes it easy to manage containers using one file and on ecommand.
+- i learned that docker compose makes it easy to manage containers using one file and one command.
