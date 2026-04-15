@@ -324,7 +324,7 @@ Learn what environment variables are and how to use them.
 - Real applications use separate services (app + database)
 
 
-### Day 15 - Docker compose + AWS
+### Day 15 - Docker compose + Aws 
 
 ### steps
 - I created a simple html page and built a docker image using dockerfile.
