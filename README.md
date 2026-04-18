@@ -334,3 +334,30 @@ Learn what environment variables are and how to use them.
 
 ### what i learned 
 - i learned that docker compose makes it easy to manage containers using one file and one command.
+
+
+## Day 16 – Docker Revision and Practice
+
+### Steps
+- Revised Docker basics and commands
+- Checked running containers:
+  `sudo docker ps`
+- Listed all containers:
+  `sudo docker ps -a`
+- Ran nginx container:
+  `sudo docker run -d -p 8080:80 nginx`
+- Ran redis container in custom network:
+  `sudo docker run -d --name db --network mynet redis`
+- Stopped container:
+  `sudo docker stop <container_id>`
+- Removed container:
+  `sudo docker rm <container_id>`
+- Checked networks:
+  `sudo docker network ls`
+
+### What I Learned
+- Docker commands become easier with practice
+- Containers can be fully managed from terminal
+- Permission and name conflicts are common errors
+- Using correct commands and sequence is important
+- Hands-on practice improves understanding
