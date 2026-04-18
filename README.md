@@ -361,3 +361,25 @@ Learn what environment variables are and how to use them.
 - Permission and name conflicts are common errors
 - Using correct commands and sequence is important
 - Hands-on practice improves understanding
+
+
+## Day 17 - Docker project 
+
+### Project structure 
+- day17-project/
+ ├── app/
+ │   └── index.html
+ ├── Dockerfile
+ └── docker-compose.yml
+
+### What i did 
+- first i created a folder & a file using mkdir and file with nano index.html 
+- Then i wrote HTML page in file
+- Then i created Dockerfile  using nano Dockerfile
+- After that i got an error my image is not ready so i created an image
+- then used docker-compose to run container
+
+### what i learned 
+- How Dockerfile and docker-compose work together
+- How to run project using one command
+- Importance of project structure
