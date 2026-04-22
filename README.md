@@ -15,7 +15,7 @@ It allows us to connect to a remote Linux machine.
 
 ---
 
-## Step 2: Update the system
+## Step 2: Update the system 
 Before installing anything, I updated the server.
 Command:
 sudo dnf update
